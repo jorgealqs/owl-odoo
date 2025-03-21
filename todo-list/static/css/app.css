@@ -1,0 +1,92 @@
+.todo-app {
+  width: 300px;
+  margin: 50px auto;
+  background: aliceblue;
+  padding: 10px;
+}
+
+.todo-app > input {
+  display: block;
+  width: 90%; /* Ocupa el 90% del contenedor */
+  margin: auto;
+  font-size: 1.35rem;
+  padding: 0.6rem 1rem; /* Añade padding para mejor apariencia */
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+  border: none; /* Elimina el borde */
+  border-radius: 8px; /* Bordes redondeados */
+  background-color: #f5f5f5; /* Color de fondo suave */
+  outline: none; /* Evita el contorno azul al hacer clic */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.todo-app > input:focus {
+  background-color: #eaeaea; /* Cambia ligeramente el fondo al enfocar */
+}
+
+.todo-app > input::placeholder {
+  color: #999; /* Color de placeholder más suave */
+  font-style: italic; /* Hace que el placeholder se vea más elegante */
+}
+
+.task-list {
+  margin-top: 8px;
+}
+
+.task {
+  font-size: 18px;
+  color: #111111;
+  display: grid;
+  grid-template-columns: 30px auto 30px;
+  margin-bottom: 0.5rem;
+}
+
+.task:hover {
+  background-color: #def0ff;
+}
+
+.task > input {
+  margin: auto;
+}
+
+.task.done {
+  opacity: 0.7;
+}
+
+.delete {
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.task:hover .delete {
+  opacity: 1;
+}
+
+.delete > i {
+  color:red;
+}
+
+.task.done label {
+  text-decoration: line-through;
+}
+
+.task-panel {
+  color: #0088ff;
+  margin-top: 8px;
+  font-size: 14px;
+  display: flex;
+}
+
+.task-panel .task-counter {
+  flex-grow: 1;
+}
+
+.task-panel span {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.task-panel span.active {
+  font-weight: bold;
+}

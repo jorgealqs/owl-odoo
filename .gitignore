@@ -1,0 +1,30 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build and generated files
+dist/
+build/
+*.log
+
+# Local environment and cache
+.env
+.env.local
+.cache/
+
+# OWL-specific files
+*.pyc
+__pycache__/
+
+# Ignore compiled CSS files (if using SCSS or other preprocessors)
+*.css.map
+
+# Local storage files
+localStorage.json
