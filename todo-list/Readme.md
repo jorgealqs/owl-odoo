@@ -15,15 +15,18 @@ Un **To-Do List** interactivo construido con [OWL (Odoo Web Library)](https://gi
 ## 📂 Estructura del Proyecto
 
 ```
-📦 todo-list-owl
+📦 todo-list
  ┣ 📂 static
  ┃ ┗ 📂 components
  ┃ ┃ ┣ 📜 root.js
  ┃ ┃ ┗ 📜 task.js
+ ┃ ┃ 📂 ccs
+ ┃ ┃ ┣ 📜 app.css
+ ┃ ┃ 📂 libraries_js
+ ┃ ┃ ┣ 📜 owl.js
  ┣ 📜 store.js
  ┣ 📜 app.js
  ┣ 📜 index.html
- ┣ 📜 styles.css
  ┗ 📜 README.md
 ```
 
@@ -34,7 +37,7 @@ Un **To-Do List** interactivo construido con [OWL (Odoo Web Library)](https://gi
 - **`store.js`** → Implementación del store reactivo para gestionar las tareas.
 - **`root.js`** → Componente principal que gestiona la lista de tareas.
 - **`task.js`** → Componente para representar una tarea individual.
-- **`styles.css`** → Estilos de la aplicación.
+- **`app.css`** → Estilos de la aplicación.
 
 ---
 
@@ -42,7 +45,7 @@ Un **To-Do List** interactivo construido con [OWL (Odoo Web Library)](https://gi
 
 1️⃣ **Clonar el repositorio:**
 ```sh
- git clone https://github.com/tu_usuario/todo-list-owl.git
+ git clone git@github.com:jorgealqs/owl-odoo.git
 ```
 
 2️⃣ **Abrir el archivo `index.html` en un navegador**
@@ -52,7 +55,7 @@ Un **To-Do List** interactivo construido con [OWL (Odoo Web Library)](https://gi
 ## 🖼 Capturas de Pantalla
 
 ✨ *Aquí puedes agregar imágenes o GIFs del funcionamiento de la app.*
-
+![Todo App Preview](./images/task.png)
 ---
 
 ## 🏗 Tecnologías Usadas
