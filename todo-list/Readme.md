@@ -14,7 +14,7 @@ Un **To-Do List** interactivo construido con [OWL (Odoo Web Library)](https://gi
 
 ## 📂 Estructura del Proyecto
 
-```
+```plaintext
 📦 todo-list
  ┣ 📂 static
  ┃ ┗ 📂 components
@@ -44,6 +44,7 @@ Un **To-Do List** interactivo construido con [OWL (Odoo Web Library)](https://gi
 ## 🛠 Instalación y Uso
 
 1️⃣ **Clonar el repositorio:**
+
 ```sh
  git clone git@github.com:jorgealqs/owl-odoo.git
 ```
@@ -54,8 +55,10 @@ Un **To-Do List** interactivo construido con [OWL (Odoo Web Library)](https://gi
 
 ## 🖼 Capturas de Pantalla
 
-✨ *Aquí puedes agregar imágenes o GIFs del funcionamiento de la app.*
+✨ *App funcionando*
+
 ![Todo App Preview](./images/task.png)
+
 ---
 
 ## 🏗 Tecnologías Usadas
@@ -68,12 +71,16 @@ Un **To-Do List** interactivo construido con [OWL (Odoo Web Library)](https://gi
 
 ## 📌 Contribuciones
 
-¡Las contribuciones son bienvenidas! Si encuentras un error o tienes una mejora, siéntete libre de abrir un _issue_ o enviar un _pull request_.
+¡Las contribuciones son bienvenidas! Si encuentras un error o tienes una mejora, siéntete libre de abrir un *issue* o enviar un *pull request_.
 
 ---
 
 ## 📜 Licencia
 
 Este proyecto está bajo la licencia **MIT**. Puedes usarlo, modificarlo y distribuirlo libremente.
+
+## 📞 Contacto
+
+Jorge Alberto Quiroz Sierra - [LinkedIn](https://www.linkedin.com/in/jorgealqs/) - [joralquisi@hotmail.com](mailto:joralquisi@hotmail.com) - [WhatsApp](https://wa.me/573193662738?text=Hola%20Jorge,%20me%20interesa%20hablar%20contigo)
 
 🚀 ¡Gracias por visitar este proyecto! 😊
