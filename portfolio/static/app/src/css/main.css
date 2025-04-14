@@ -1,0 +1,18 @@
+:root {
+    --text-alt-color: #697177;
+    --text-family-noto: "Noto Serif", "Times New Roman", Georgia, serif;
+    --text-family-poppins: "Poppins", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--text-family-noto);
+}
+
+.poppins {
+    font-family: var(--text-family-poppins);
+    color: var(--text-alt-color);
+}
